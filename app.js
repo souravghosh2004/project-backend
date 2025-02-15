@@ -3,7 +3,7 @@ import cors from 'cors';
 import bodyParser from 'body-parser';
 const app = express()
 
-app.use(cors({ origin: 'https://67b0b703b392a9f1cbc5b42a--tranquil-phoenix-e279d9.netlify.app' })); 
+app.use(cors({ origin: 'https://tranquil-phoenix-e279d9.netlify.app/' })); 
 app.use(express.json());
 app.use(bodyParser.json());
 
